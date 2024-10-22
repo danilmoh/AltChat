@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Диагональный банер</title>
+    <style>
+        body {
+            font-size: 1rem;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: #707070;
+        }
+
+        .banner {
+            height: 300px;
+            margin: 50px auto;
+
+            background: linear-gradient(125deg, rgba(255, 0, 0, 1) 33.3%, rgba(255, 192, 203, 1) 33.3%, rgba(255, 192, 203, 1) 66.6%, rgba(0, 0, 255, 1) 66.6%);
+            display: flex; /* Добавляем Flexbox */
+            align-items: center; /* Выравниваем изображения по вертикали */
+            justify-content: space-around; /* Распределяем изображения с промежутками по ширине */
+        }
+
+        .banner img {
+            max-height: 100%; /* Убеждаемся, что изображения не выходят за пределы банера */
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="C:\Users\yrten\Desktop\AltChat\sources\Альтушки\Спрайт_ксюши 1.png" alt="Photo 1">
+        <img src="C:\Users\yrten\Desktop\AltChat\sources\Альтушки\Спрайт_насти 1.png" alt="Photo 2">
+        <img src="C:\Users\yrten\Desktop\AltChat\sources\Альтушки\Спрайт_алисы 1.png" alt="Photo 3">
+    </div>
+</body>
+</html>
